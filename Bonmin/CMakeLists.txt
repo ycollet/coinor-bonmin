@@ -73,11 +73,11 @@ set(Bonmin_SRC_LIST ${Bonmin_DIR}/src/Interfaces/BonTNLPSolver.cpp
                     ${Bonmin_DIR}/src/Interfaces/Ipopt/BonIpoptWarmStart.cpp
                     ${Bonmin_DIR}/src/Interfaces/Ipopt/BonIpoptInteriorWarmStarter.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonOsiTMINLPInterface.cpp
-                    ${Bonmin_DIR}/src/Interfaces/BonStdInterfaceTMINLP.cpp
+                    #${Bonmin_DIR}/src/Interfaces/BonStdInterfaceTMINLP.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonTMINLP2TNLP.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonTNLP2FPNLP.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonCutStrengthener.cpp
-                    ${Bonmin_DIR}/src/Interfaces/BonStdCInterface.cpp
+                    #${Bonmin_DIR}/src/Interfaces/BonStdCInterface.cpp
                     #${Bonmin_DIR}/src/Interfaces/BonCurvatureEstimator.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonAuxInfos.cpp
                     ${Bonmin_DIR}/src/Interfaces/BonStrongBranchingSolver.cpp
